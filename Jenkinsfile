@@ -3,7 +3,7 @@ pipeline {
     environment {
         //be sure to replace "willbla" with your own Docker Hub username
         //cds
-        DOCKER_IMAGE_NAME = "ss18ss/train-schedule"
+        
         CANARY_REPLICAS = 0
     }
     stages {
